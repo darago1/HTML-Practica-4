@@ -5,32 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taules</title>
+    <!-- Linkem CSS extern a la pagina perque pugui ser utilitzat en a aquesta pagina -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Creem taule que no te estil CSS -->
     <table>
-        <caption>
-            Caption
-        </caption>
+      <!-- Títol de la taula -->
+      <caption>
+        Caption
+      </caption>
+      <!-- Indiquem semanticament que el contigut de thead es la capçalera de la taula  -->
       <thead>
+        <!-- Fila de la taula -->
         <tr>
+          <!-- Capçalera taula -->
           <th>Capçalera1</th>
           <th>Capçalera2</th>
           <th>Capçalera3</th>
           <th>Capçalera4</th>
         </tr>
       </thead>
+      <!-- Indiquem semanticament que el contigut de tbody es la cos de la taula  -->
       <tbody>
         <tr>
-            <td>Dada1</td>
-            <td>Dada2</td>
-            <td>Dada3</td>
-            <td>Dada4</td>
+          <!-- Dades de la taula -->
+          <td>Dada1</td>
+          <td>Dada2</td>
+          <td>Dada3</td>
+          <td>Dada4</td>
         </tr>
         <tr>
-            <td>Dada1</td>
-            <td>Dada2</td>
-            <td>Dada3</td>
-            <td>Dada4</td>
+          <td>Dada1</td>
+          <td>Dada2</td>
+          <td>Dada3</td>
+          <td>Dada4</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Heading 1</h1>
+    <!-- Creem taula amb class per ser utilitzat en CSS -->
+    <table class="css-table">
+      <caption class="css-caption">
+        Caption
+      </caption>
+      <thead>
+        <tr>
+          <th class="css-th">Capçalera1</th>
+          <th class="css-th">Capçalera2</th>
+          <th class="css-th">Capçalera3</th>
+          <th class="css-th">Capçalera4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="css-td">Dada1</td>
+          <td class="css-td">Dada2</td>
+          <td class="css-td">Dada3</td>
+          <td class="css-td">Dada4</td>
+        </tr>
+        <tr>
+          <td class="css-td">Dada1</td>
+          <td class="css-td">Dada2</td>
+          <td class="css-td">Dada3</td>
+          <td class="css-td">Dada4</td>
         </tr>
       </tbody>
     </table>

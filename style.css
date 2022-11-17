@@ -1,0 +1,31 @@
+/* Caption de la segona taula */
+.css-caption {
+    color: blue;
+    /* Donem espai perque quedi millor posicionat */
+    padding: 5px;
+}
+
+/* CSS segona taula */
+.css-table, .css-th, .css-td {
+    /* Lineas no dobles */
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 7px 15px;
+    /* Centrar taula a la pagina */
+    margin: auto;
+}
+
+/* Capçaleres de la taula */
+.css-th {
+    background-color: rgb(173, 173, 173);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: blueviolet;
+    font-weight: bold;
+    /* Centrar text */
+    text-align: center;
+}
